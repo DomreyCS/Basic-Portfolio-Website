@@ -1,0 +1,31 @@
+#logo{
+    width: 50px;
+    height: 50px;
+}
+.nav-item:hover {
+    background-color: #FDC42D;
+}
+.jumbotron{
+    background: url('http://via.placeholder.com/350x150') center center no-repeat;
+    background-size: contain;
+    height: 40vh;
+}
+
+#driven{
+    font-family: 'Radley', serif;
+    font-style: italic;
+    color: #FDC42D;
+    text-align: right;
+    font-size: 1em;
+}
+#about{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    background-color: #FDC42D;
+    color: black;
+}
+p{
+    font-family: "Radley";
+    font-size: 14px;
+}
