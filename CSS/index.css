@@ -6,7 +6,6 @@
     background-color: #FDC42D;
 }
 .jumbotron{
-
     background-size: cover;
     height: 40vh;
 }
@@ -41,9 +40,6 @@ p{
 }
 #connect{
     background-color: #FDC42D;
-    margin: 10px;
-    padding: 10px;
-    border: 2px;
 }
 #connect h1{
     color: black;
@@ -66,7 +62,14 @@ p{
     height:25px;
 }
 #footer{
+    background-color: grey;
+    padding: 20px;
     text-align: right;
+    color: white;
+    font-size: 1.2em;
+}
+#footer a{
+    color: white;
 }
 #footer ul{
     list-style: none;
