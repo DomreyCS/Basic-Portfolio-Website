@@ -11,7 +11,9 @@
 	<!-- Personal CSS -->
 	<link href="CSS/index.css" rel="stylesheet" type="text/css">
 	<!-- Font Awesome CDN -->
-	<script src="https://use.fontawesome.com/f3f3b9bf2f.js"></script>
+
+	<script src="https://use.fontawesome.com/f3f3b9bf2f.js">
+	</script>
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Radley" rel="stylesheet">
 	<title>CareerDevs Portfolio Project</title>
@@ -19,51 +21,103 @@
 <body>
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#"><img id='logo' src="images/anchor.png"></img></a>
-		<button aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarColor03" data-toggle="collapse" type="button"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
-		<div class="collapse navbar-collapse " id="navbarColor03">
+		<a class="navbar-brand" href="#"><img id='logo' src="images/anchor.png"></a> <button aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" data-target="#navbarColor03" data-toggle="collapse" type="button"><i aria-hidden="true" class="fa fa-angle-double-down"></i></button>
+		<div class="collapse navbar-collapse" id="navbarColor03">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Projects </a>
+					<a class="nav-link" href="#projects">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Social </a>
+					<a class="nav-link" href="#">Social</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Blog </a>
+					<a class="nav-link" href="#">Blog</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 
-	<!-- Jumbotron -->
-	<div class="container">
-		<div class="jumbotron jumbotron-fluid">
-
-		</div>
-	</div>
-
 	<!-- About Me -->
 	<div class="container">
-		<h1 id='about'>about...</h1>
+		<h1 id='about'>About...</h1>
 		<div class="row">
 			<div class="col-sm-6">
 				<p>Poke marfa blog lo-fi crucifix. Photo booth shabby chic yuccie blue bottle slow-carb, selfies ugh raclette jianbing woke kogi cliche church-key. Sustainable heirloom artisan, plaid hashtag readymade before they sold out kale chips fixie godard quinoa lyft. Mlkshk vexillologist vice, green juice deep v umami jianbing prism shaman chartreuse flexitarian edison bulb quinoa cronut. Lomo crucifix disrupt food truck, sustainable vape affogato. Kale chips kombucha air plant tofu, thundercats ugh prism chillwave lyft tacos flannel paleo lumbersexual put a bird on it. Vice paleo pinterest pabst. Vegan keytar kickstarter, semiotics waistcoat chia taiyaki blue bottle green juice letterpress master cleanse venmo farm-to-table.</p>
 			</div>
 			<div class="col-sm-6" id="curious">
-				<h2 class='display-4'>"curiosity-<span id='driven'>driven </span>developer"</h2>
+				<h2 class='display-4'>curiosity-<br>
+				<span id='driven'>driven</span><br>
+				developer</h2>
 			</div>
 		</div>
 	</div>
-	<!-- Projects gallery -->
 
-	<!-- Social Media-->
+	<!-- Social Media Jumbotron -->
+	<div class="jumbotron-fluid" id='connect'>
+		<h1 class="display-4">Make a connection.</h1>
+		<p>Quinoa meh lomo deep v man bun pop-up activated charcoal, edison bulb try-hard raclette four dollar toast echo park semiotics jean shorts.</p>
+		<div id="btn-group">
+			<button type="button" class="btn btn-info">LinkedIn</button>
+			<button type="button" class="btn btn-info">Twitter</button>
+			<button type="button" class="btn btn-info">GitHub</button>
+		</div>
+	</div>
+
+	<!-- Projects gallery -->
+	<div class="container">
+		<h1 id="projects">Projects!</h1>
+		<div class="card-deck">
+			<div class="card">
+		<h3 class="card-header">Tribute</h3>
+		<div class="card-body">
+			<h6 class="card-subtitle text-muted"><i aria-hidden="true" class="fa fa-html5"></i> HTML <i aria-hidden="true" class="fa fa-css3"></i> CSS</h6>
+		</div><img alt="Card image" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" style="height: 200px; width: 100%; display: block;">
+		<div class="card-body">
+			<p class="card-text">Mustache crucifix polaroid, roof party sustainable lo-fi drinking vinegar knausgaard master cleanse.</p><a class="card-link" href="https://preview.c9users.io/darahoy/firstworkspace/Projects/Tribute/synopsis.html">Preview</a>
+		</div>
+		<div class="card-footer text-muted">
+			2 days ago
+		</div>
+	</div>
+			<div class="card">
+		<h3 class="card-header">API</h3>
+		<div class="card-body">
+			<h6 class="card-subtitle text-muted"><i aria-hidden="true" class="fa fa-html5"></i> HTML <i aria-hidden="true" class="fa fa-css3"></i> CSS</h6>
+		</div><img alt="Card image" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" style="height: 200px; width: 100%; display: block;">
+		<div class="card-body">
+			<p class="card-text">Mustache crucifix polaroid, roof party sustainable lo-fi drinking vinegar knausgaard master cleanse.</p><a class="card-link" href="https://preview.c9users.io/darahoy/firstworkspace/Projects/Tribute/synopsis.html">Preview</a>
+		</div>
+		<div class="card-footer text-muted">
+			2 days ago
+		</div>
+	</div>
+			<div class="card">
+		<h3 class="card-header">MEAN</h3>
+		<div class="card-body">
+			<h6 class="card-subtitle text-muted"><i aria-hidden="true" class="fa fa-html5"></i> HTML <i aria-hidden="true" class="fa fa-css3"></i> CSS</h6>
+		</div><img alt="Card image" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" style="height: 200px; width: 100%; display: block;">
+		<div class="card-body">
+			<p class="card-text">Mustache crucifix polaroid, roof party sustainable lo-fi drinking vinegar knausgaard master cleanse.</p><a class="card-link" href="https://preview.c9users.io/darahoy/firstworkspace/Projects/Tribute/synopsis.html">Preview</a>
+		</div>
+		<div class="card-footer text-muted">
+			2 days ago
+		</div>
+	</div>
+	</div>
+		</div>
+	</div>
+
 	<!-- Footer -->
-	<footer></footer>
-	<!-- Bootstrap JavaScript -->
+<nav class="navbar sticky-top" id='footer'>
+	<ul class="navbar-nav ml-auto">
+		<li>(401) 919-0587</li>
+		<li><a href="mailto:darahoy@intracitygeeks.org">darahoy@intracitygeeks.org</a></li>
+		<li><a href="http://linkedin.com/darahoy"><img class='icons' src="https://www.aaaasf.org/images/default-source/logos-and-icons/linkedin-icon-square.png?sfvrsn=3"></img></a><a href='http://twitter.com/DaraHoyRI'><img class='icons' src="http://icons.iconarchive.com/icons/limav/flat-gradient-social/256/Twitter-icon.png"></img></a><a href='http://github.com/darahoy'><img class='icons' src="https://image.freepik.com/free-icon/github-logo-in-a-rounded-square_318-40761.jpg"></a></li>
+	</ul>
+</nav>	<!-- Bootstrap JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js">
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js">

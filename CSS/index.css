@@ -6,8 +6,8 @@
     background-color: #FDC42D;
 }
 .jumbotron{
-    background: url('http://via.placeholder.com/350x150') center center no-repeat;
-    background-size: contain;
+
+    background-size: cover;
     height: 40vh;
 }
 
@@ -16,16 +16,59 @@
     font-style: italic;
     color: #FDC42D;
     text-align: right;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 #about{
     text-align: center;
-    padding: 10px;
-    width: 200px;
+    padding: 20px;
+    width: 230px;
     background-color: #FDC42D;
-    color: black;
+    color: white;
+    font-style: italic;
+    font-size: 4em;
+}
+#projects{
+    text-align: center;
+    padding: 20px;
+    width: 230px;
+    font-size: 4em;
+    color: #FDC42D;
+    text-decoration: underline black;
 }
 p{
     font-family: "Radley";
-    font-size: 14px;
+    font-size: 16px;
+}
+#connect{
+    background-color: #FDC42D;
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+}
+#connect h1{
+    color: black;
+    font-family: 'Radley', serif;
+    text-align: center;
+}
+#connect p{
+    color:white;
+    font-family: "Helvetica";
+    text-align: center;
+}
+#connect .btn{
+    text-align: center;
+}
+#btn-group{
+    text-align:center;
+}
+.icons{
+    width:25px;
+    height:25px;
+}
+#footer{
+    text-align: right;
+}
+#footer ul{
+    list-style: none;
+    text-align: right;
 }
